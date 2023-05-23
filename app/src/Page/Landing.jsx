@@ -15,10 +15,12 @@ dispatch(getData(item));
     return(
         <>
         <h1>Search Form</h1>
-        <input type="text" />
-        <input type="text" />
-        <input type="text" />
-        <button>Search</button>
+        <select name="" id="">
+            <option value="All">All</option>
+            <option value="Status">Status</option>
+            <option value="Original Launch">Original Launch</option>
+            <option value="Type">Type</option>
+        </select>
         <div className={styles.container}>
             {item.map((ele)=>{
                 return (

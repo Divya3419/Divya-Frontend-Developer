@@ -4,7 +4,15 @@
 .capsule img{
     width:40%;
 }
-
+select{
+    width:10%;
+    height:30px;
+    border:none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
 .container {
   width: 90%;
   margin: auto;
